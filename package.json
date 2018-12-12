@@ -1,0 +1,17 @@
+{
+  "name": "tc1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "MainExample.js",
+  "scripts": {
+    "test": "testcafe chrome tests/",
+    "testlogin": "node testcafe.confi.js",
+    "testsignup": "node testcafe.confimob.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-install-peers": "^1.2.1",
+    "testcafe": "^0.23.2"
+  }
+}
